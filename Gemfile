@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "3.1.2"
+ruby "3.4.1"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3", ">= 7.1.3.4"
@@ -18,10 +18,10 @@ gem "puma", ">= 5.0"
 gem "importmap-rails"
 
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
-gem "turbo-rails"
+# gem "turbo-rails"
 
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
-gem "stimulus-rails"
+# gem "stimulus-rails"
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
@@ -54,7 +54,7 @@ group :development do
   gem "web-console"
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
-  # gem "rack-mini-profiler"
+  gem "rack-mini-profiler"
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
